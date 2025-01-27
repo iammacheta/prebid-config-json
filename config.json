@@ -328,19 +328,6 @@
                     }
                 },
                 {
-                    "bidder": "adagio",
-                    "params": {
-                        "organizationId": "1458-TBD",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048-TBD"
-                    }
-                },
-                {
                     "bidder": "sovrn",
                     "params": {
                         "tagid": "1266900"
@@ -351,30 +338,6 @@
                     "params": {
                         "unit": "561766504",
                         "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e-TBD",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-m"
-                        }
-                    }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2035035,
-                        "formatId": "135866-TBD-remove-quotes"
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "459432632-TBD"
                     }
                 },
                 {
