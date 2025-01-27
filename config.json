@@ -305,6 +305,95 @@
             }
         },
         {
+            "code": "/21974715207/web-destiny-2-display-3",
+            "mediaTypes": {
+                "banner": {
+                    "sizes": []
+                }
+            },
+            "bids": [
+                {
+                    "bidder": "pubmatic",
+                    "params": {
+                        "publisherId": "165261",
+                        "adSlot": "6586729"
+                    }
+                },
+                {
+                    "bidder": "appnexus",
+                    "params": {
+                        "placementId": 34990854,
+                        "allowSmallerSizes": true,
+                        "position": "above"
+                    }
+                },
+                {
+                    "bidder": "adagio",
+                    "params": {
+                        "organizationId": "1458-TBD",
+                        "site": "mobalytics-gg"
+                    }
+                },
+                {
+                    "bidder": "oms",
+                    "params": {
+                        "publisherId": "21048-TBD"
+                    }
+                },
+                {
+                    "bidder": "sovrn",
+                    "params": {
+                        "tagid": "1266900"
+                    }
+                },
+                {
+                    "bidder": "openx",
+                    "params": {
+                        "unit": "561766504",
+                        "delDomain": "mobalytics-d.openx.net"
+                    }
+                },
+                {
+                    "bidder": "onetag",
+                    "params": {
+                        "pubId": "80ac484cd63fd7e-TBD",
+                        "ext": {
+                            "placement_name": "web-destiny-2-display-m"
+                        }
+                    }
+                },
+                {
+                    "bidder": "smartadserver",
+                    "params": {
+                        "siteId": 682899,
+                        "pageId": 2035035,
+                        "formatId": "135866-TBD-remove-quotes"
+                    }
+                },
+                {
+                    "bidder": "medianet",
+                    "params": {
+                        "cid": "8CUC2405Y",
+                        "crid": "459432632-TBD"
+                    }
+                },
+                {
+                    "bidder": "ix",
+                    "params": {
+                        "siteId": "1169912"
+                    }
+                }
+            ],
+            "ortb2Imp": {
+                "ext": {
+                    "data": {
+                        "divId": "web-destiny-2-display-3",
+                        "placement": "sidebar-3"
+                    }
+                }
+            }
+        },
+        {
             "code": "/21974715207/web-destiny-2-display-footer-d",
             "mediaTypes": {
                 "banner": {
