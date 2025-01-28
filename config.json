@@ -371,6 +371,13 @@
                     }
                 },
                 {
+                    "bidder": "medianet",
+                    "params": {
+                        "cid": "8CUC2405Y",
+                        "crid": "793236452"
+                    }
+                },
+                {
                     "bidder": "ix",
                     "params": {
                         "siteId": "1169912"
