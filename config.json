@@ -1,5 +1,5 @@
 {
-    "config_version": "1601-bidCache",
+    "config_version": "2801-display3",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 60000,
@@ -122,8 +122,22 @@
                 },
                 {
                     "name": "criteo"
+                },
+                {
+                    "name": "id5Id",
+                    "params": {
+                        "partner": 1779,
+                        "externalModuleUrl": "https://cdn.id5-sync.com/api/1.0/id5PrebidModule.js"
+                    },
+                    "storage": {
+                        "type": "html5",
+                        "name": "id5id",
+                        "expires": 90,
+                        "refreshInSeconds": 7200
+                    }
                 }
-            ]
+            ],
+            "auctionDelay": 250
         }
     },
     "adUnitsDesktop": [
