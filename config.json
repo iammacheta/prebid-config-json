@@ -104,7 +104,8 @@
                         "source": [
                             "uidapi.com",
                             "sharedid.org",
-                            "criteo.com"
+                            "criteo.com",
+                            "id5-sync.com"
                         ],
                         "encrypt": false
                     }
