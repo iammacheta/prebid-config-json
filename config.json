@@ -328,6 +328,19 @@
                     }
                 },
                 {
+                    "bidder": "adagio",
+                    "params": {
+                        "organizationId": "1458",
+                        "site": "mobalytics-gg"
+                    }
+                },
+                {
+                    "bidder": "oms",
+                    "params": {
+                        "publisherId": "21048"
+                    }
+                },
+                {
                     "bidder": "sovrn",
                     "params": {
                         "tagid": "1266900"
@@ -338,6 +351,23 @@
                     "params": {
                         "unit": "561766504",
                         "delDomain": "mobalytics-d.openx.net"
+                    }
+                },
+                {
+                    "bidder": "onetag",
+                    "params": {
+                        "pubId": "80ac484cd63fd7e",
+                        "ext": {
+                            "placement_name": "web-destiny-2-display-3"
+                        }
+                    }
+                },
+                {
+                    "bidder": "smartadserver",
+                    "params": {
+                        "siteId": 682899,
+                        "pageId": 2047710,
+                        "formatId": 138618
                     }
                 },
                 {
