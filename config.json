@@ -1,5 +1,5 @@
 {
-    "config_version": "2801-display3",
+    "config_version": "3001-inmobi",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 60000,
@@ -227,6 +227,12 @@
                         "zone": "bdppvphq",
                         "slot": "1155240"
                     }
+                },
+                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000167297"
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -321,6 +327,12 @@
                     "params": {
                         "zone": "bdppvphq",
                         "slot": "1273326"
+                    }
+                },
+                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000167298"
                     }
                 }
             ],
@@ -418,6 +430,12 @@
                         "zone": "bdppvphq",
                         "slot": "1273323"
                     }
+                },
+                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000167299"
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -512,6 +530,12 @@
                     "params": {
                         "zone": "bdppvphq",
                         "slot": "1273327"
+                    }
+                },
+                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000167300"
                     }
                 }
             ],
@@ -610,6 +634,12 @@
                     "params": {
                         "zone": "bdppvphq",
                         "slot": "1273329"
+                    }
+                },
+                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000167301"
                     }
                 }
             ],
