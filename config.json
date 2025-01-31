@@ -1,11 +1,12 @@
 {
-    "config_version": "3001-inmobi",
+    "config_version": "3101-ogury&refresh&TTL",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
-    "refreshInterval": 60000,
+    "refreshInterval": 30000,
     "config": {
         "enableSendAllBids": false,
         "useBidCache": true,
+        "eventHistoryTTL": 400,
         "enableTIDs": true,
         "priceGranularity": {
             "buckets": [
@@ -232,6 +233,13 @@
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167297"
+                    }
+                },
+                {
+                    "bidder": "ogury",
+                    "params": {
+                        "adUnitId": "wd-hb-stdb-mobaly-mobal-6xnjqbcd90zb",
+                        "assetKey": "OGY-1D9A57637CDD"
                     }
                 }
             ],
@@ -537,6 +545,13 @@
                     "params": {
                         "plc": "10000167300"
                     }
+                },
+                {
+                    "bidder": "ogury",
+                    "params": {
+                        "adUnitId": "wd-hb-stdb-mobaly-mobal-by5lcxwkbpyj",
+                        "assetKey": "OGY-1D9A57637CDD"
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -640,6 +655,13 @@
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167301"
+                    }
+                },
+                {
+                    "bidder": "ogury",
+                    "params": {
+                        "adUnitId": "wm-hb-foot-mobaly-mobal-p0t0g8k3cci1",
+                        "assetKey": "OGY-1D9A57637CDD"
                     }
                 }
             ],
