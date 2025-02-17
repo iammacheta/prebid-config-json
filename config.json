@@ -1,5 +1,5 @@
 {
-    "config_version": "3101-ogury&refresh&TTL",
+    "config_version": "1702-adagioRTD",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -140,544 +140,555 @@
                 }
             ],
             "auctionDelay": 250
-        }
-    },
-    "adUnitsDesktop": [
-        {
-            "code": "/21974715207/web-destiny-2-display-m",
-            "mediaTypes": {
-                "banner": {
-                    "sizes": []
-                }
-            },
-            "bids": [
-                {
-                    "bidder": "pubmatic",
-                    "params": {
-                        "publisherId": "165261",
-                        "adSlot": "6141440"
-                    }
-                },
-                {
-                    "bidder": "appnexus",
-                    "params": {
-                        "placementId": 34122281,
-                        "allowSmallerSizes": true,
-                        "position": "above"
-                    }
-                },
-                {
-                    "bidder": "adagio",
-                    "params": {
-                        "organizationId": "1458",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
-                    "bidder": "sovrn",
-                    "params": {
-                        "tagid": "1256209"
-                    }
-                },
-                {
-                    "bidder": "openx",
-                    "params": {
-                        "unit": "561445368",
-                        "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-m"
-                        }
-                    }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2035035,
-                        "formatId": 135866
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "459432632"
-                    }
-                },
-                {
-                    "bidder": "ix",
-                    "params": {
-                        "siteId": "1157268"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1155240"
-                    }
-                },
-                {
-                    "bidder": "inmobi",
-                    "params": {
-                        "plc": "10000167297"
-                    }
-                },
-                {
-                    "bidder": "ogury",
-                    "params": {
-                        "adUnitId": "wd-hb-stdb-mobaly-mobal-6xnjqbcd90zb",
-                        "assetKey": "OGY-1D9A57637CDD"
-                    }
-                }
-            ],
-            "ortb2Imp": {
-                "ext": {
-                    "data": {
-                        "divId": "web-destiny-2-display-m",
-                        "placement": "sidebar-1"
-                    }
-                }
-            }
         },
-        {
-            "code": "/21974715207/web-destiny-2-display-l",
-            "mediaTypes": {
-                "banner": {
-                    "sizes": []
-                }
-            },
-            "bids": [
+        "realTimeData": {
+            "dataProviders": [
                 {
-                    "bidder": "pubmatic",
-                    "params": {
-                        "publisherId": "165261",
-                        "adSlot": "6141441"
-                    }
-                },
-                {
-                    "bidder": "appnexus",
-                    "params": {
-                        "placementId": 34122285,
-                        "allowSmallerSizes": true
-                    }
-                },
-                {
-                    "bidder": "adagio",
+                    "name": "adagio",
                     "params": {
                         "organizationId": "1458",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
-                    "bidder": "sovrn",
-                    "params": {
-                        "tagid": "1256210"
-                    }
-                },
-                {
-                    "bidder": "openx",
-                    "params": {
-                        "unit": "561445369",
-                        "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-l"
-                        }
-                    }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2035036,
-                        "formatId": 135867
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "658293227"
-                    }
-                },
-                {
-                    "bidder": "ix",
-                    "params": {
-                        "siteId": "1157269"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273326"
-                    }
-                },
-                {
-                    "bidder": "inmobi",
-                    "params": {
-                        "plc": "10000167298"
+                        "site": "mobalytics-gg",
+                        "placementSource": "ortb"
                     }
                 }
-            ],
-            "ortb2Imp": {
-                "ext": {
-                    "data": {
-                        "divId": "web-destiny-2-display-l",
-                        "placement": "sidebar-2"
-                    }
-                }
-            }
+            ]
         },
-        {
-            "code": "/21974715207/web-destiny-2-display-3",
-            "mediaTypes": {
-                "banner": {
-                    "sizes": []
-                }
-            },
-            "bids": [
-                {
-                    "bidder": "pubmatic",
-                    "params": {
-                        "publisherId": "165261",
-                        "adSlot": "6586729"
+        "adUnitsDesktop": [
+            {
+                "code": "/21974715207/web-destiny-2-display-m",
+                "mediaTypes": {
+                    "banner": {
+                        "sizes": []
                     }
                 },
-                {
-                    "bidder": "appnexus",
-                    "params": {
-                        "placementId": 34990854,
-                        "allowSmallerSizes": true,
-                        "position": "above"
-                    }
-                },
-                {
-                    "bidder": "adagio",
-                    "params": {
-                        "organizationId": "1458",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
-                    "bidder": "sovrn",
-                    "params": {
-                        "tagid": "1266900"
-                    }
-                },
-                {
-                    "bidder": "openx",
-                    "params": {
-                        "unit": "561766504",
-                        "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-3"
+                "bids": [
+                    {
+                        "bidder": "pubmatic",
+                        "params": {
+                            "publisherId": "165261",
+                            "adSlot": "6141440"
+                        }
+                    },
+                    {
+                        "bidder": "appnexus",
+                        "params": {
+                            "placementId": 34122281,
+                            "allowSmallerSizes": true,
+                            "position": "above"
+                        }
+                    },
+                    {
+                        "bidder": "adagio",
+                        "params": {
+                            "organizationId": "1458",
+                            "site": "mobalytics-gg"
+                        }
+                    },
+                    {
+                        "bidder": "oms",
+                        "params": {
+                            "publisherId": "21048"
+                        }
+                    },
+                    {
+                        "bidder": "sovrn",
+                        "params": {
+                            "tagid": "1256209"
+                        }
+                    },
+                    {
+                        "bidder": "openx",
+                        "params": {
+                            "unit": "561445368",
+                            "delDomain": "mobalytics-d.openx.net"
+                        }
+                    },
+                    {
+                        "bidder": "onetag",
+                        "params": {
+                            "pubId": "80ac484cd63fd7e",
+                            "ext": {
+                                "placement_name": "web-destiny-2-display-m"
+                            }
+                        }
+                    },
+                    {
+                        "bidder": "smartadserver",
+                        "params": {
+                            "siteId": 682899,
+                            "pageId": 2035035,
+                            "formatId": 135866
+                        }
+                    },
+                    {
+                        "bidder": "medianet",
+                        "params": {
+                            "cid": "8CUC2405Y",
+                            "crid": "459432632"
+                        }
+                    },
+                    {
+                        "bidder": "ix",
+                        "params": {
+                            "siteId": "1157268"
+                        }
+                    },
+                    {
+                        "bidder": "gumgum",
+                        "params": {
+                            "zone": "bdppvphq",
+                            "slot": "1155240"
+                        }
+                    },
+                    {
+                        "bidder": "inmobi",
+                        "params": {
+                            "plc": "10000167297"
+                        }
+                    },
+                    {
+                        "bidder": "ogury",
+                        "params": {
+                            "adUnitId": "wd-hb-stdb-mobaly-mobal-6xnjqbcd90zb",
+                            "assetKey": "OGY-1D9A57637CDD"
                         }
                     }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2047710,
-                        "formatId": 138618
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "793236452"
-                    }
-                },
-                {
-                    "bidder": "ix",
-                    "params": {
-                        "siteId": "1169912"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273323"
-                    }
-                },
-                {
-                    "bidder": "inmobi",
-                    "params": {
-                        "plc": "10000167299"
+                ],
+                "ortb2Imp": {
+                    "ext": {
+                        "data": {
+                            "divId": "web-destiny-2-display-m",
+                            "placement": "sidebar-1"
+                        }
                     }
                 }
-            ],
-            "ortb2Imp": {
-                "ext": {
-                    "data": {
-                        "divId": "web-destiny-2-display-3",
-                        "placement": "sidebar-3"
+            },
+            {
+                "code": "/21974715207/web-destiny-2-display-l",
+                "mediaTypes": {
+                    "banner": {
+                        "sizes": []
+                    }
+                },
+                "bids": [
+                    {
+                        "bidder": "pubmatic",
+                        "params": {
+                            "publisherId": "165261",
+                            "adSlot": "6141441"
+                        }
+                    },
+                    {
+                        "bidder": "appnexus",
+                        "params": {
+                            "placementId": 34122285,
+                            "allowSmallerSizes": true
+                        }
+                    },
+                    {
+                        "bidder": "adagio",
+                        "params": {
+                            "organizationId": "1458",
+                            "site": "mobalytics-gg"
+                        }
+                    },
+                    {
+                        "bidder": "oms",
+                        "params": {
+                            "publisherId": "21048"
+                        }
+                    },
+                    {
+                        "bidder": "sovrn",
+                        "params": {
+                            "tagid": "1256210"
+                        }
+                    },
+                    {
+                        "bidder": "openx",
+                        "params": {
+                            "unit": "561445369",
+                            "delDomain": "mobalytics-d.openx.net"
+                        }
+                    },
+                    {
+                        "bidder": "onetag",
+                        "params": {
+                            "pubId": "80ac484cd63fd7e",
+                            "ext": {
+                                "placement_name": "web-destiny-2-display-l"
+                            }
+                        }
+                    },
+                    {
+                        "bidder": "smartadserver",
+                        "params": {
+                            "siteId": 682899,
+                            "pageId": 2035036,
+                            "formatId": 135867
+                        }
+                    },
+                    {
+                        "bidder": "medianet",
+                        "params": {
+                            "cid": "8CUC2405Y",
+                            "crid": "658293227"
+                        }
+                    },
+                    {
+                        "bidder": "ix",
+                        "params": {
+                            "siteId": "1157269"
+                        }
+                    },
+                    {
+                        "bidder": "gumgum",
+                        "params": {
+                            "zone": "bdppvphq",
+                            "slot": "1273326"
+                        }
+                    },
+                    {
+                        "bidder": "inmobi",
+                        "params": {
+                            "plc": "10000167298"
+                        }
+                    }
+                ],
+                "ortb2Imp": {
+                    "ext": {
+                        "data": {
+                            "divId": "web-destiny-2-display-l",
+                            "placement": "sidebar-2"
+                        }
+                    }
+                }
+            },
+            {
+                "code": "/21974715207/web-destiny-2-display-3",
+                "mediaTypes": {
+                    "banner": {
+                        "sizes": []
+                    }
+                },
+                "bids": [
+                    {
+                        "bidder": "pubmatic",
+                        "params": {
+                            "publisherId": "165261",
+                            "adSlot": "6586729"
+                        }
+                    },
+                    {
+                        "bidder": "appnexus",
+                        "params": {
+                            "placementId": 34990854,
+                            "allowSmallerSizes": true,
+                            "position": "above"
+                        }
+                    },
+                    {
+                        "bidder": "adagio",
+                        "params": {
+                            "organizationId": "1458",
+                            "site": "mobalytics-gg"
+                        }
+                    },
+                    {
+                        "bidder": "oms",
+                        "params": {
+                            "publisherId": "21048"
+                        }
+                    },
+                    {
+                        "bidder": "sovrn",
+                        "params": {
+                            "tagid": "1266900"
+                        }
+                    },
+                    {
+                        "bidder": "openx",
+                        "params": {
+                            "unit": "561766504",
+                            "delDomain": "mobalytics-d.openx.net"
+                        }
+                    },
+                    {
+                        "bidder": "onetag",
+                        "params": {
+                            "pubId": "80ac484cd63fd7e",
+                            "ext": {
+                                "placement_name": "web-destiny-2-display-3"
+                            }
+                        }
+                    },
+                    {
+                        "bidder": "smartadserver",
+                        "params": {
+                            "siteId": 682899,
+                            "pageId": 2047710,
+                            "formatId": 138618
+                        }
+                    },
+                    {
+                        "bidder": "medianet",
+                        "params": {
+                            "cid": "8CUC2405Y",
+                            "crid": "793236452"
+                        }
+                    },
+                    {
+                        "bidder": "ix",
+                        "params": {
+                            "siteId": "1169912"
+                        }
+                    },
+                    {
+                        "bidder": "gumgum",
+                        "params": {
+                            "zone": "bdppvphq",
+                            "slot": "1273323"
+                        }
+                    },
+                    {
+                        "bidder": "inmobi",
+                        "params": {
+                            "plc": "10000167299"
+                        }
+                    }
+                ],
+                "ortb2Imp": {
+                    "ext": {
+                        "data": {
+                            "divId": "web-destiny-2-display-3",
+                            "placement": "sidebar-3"
+                        }
+                    }
+                }
+            },
+            {
+                "code": "/21974715207/web-destiny-2-display-footer-d",
+                "mediaTypes": {
+                    "banner": {
+                        "sizes": []
+                    }
+                },
+                "bids": [
+                    {
+                        "bidder": "pubmatic",
+                        "params": {
+                            "publisherId": "165261",
+                            "adSlot": "6141442"
+                        }
+                    },
+                    {
+                        "bidder": "appnexus",
+                        "params": {
+                            "placementId": 34122289,
+                            "position": "above"
+                        }
+                    },
+                    {
+                        "bidder": "adagio",
+                        "params": {
+                            "organizationId": "1458",
+                            "site": "mobalytics-gg"
+                        }
+                    },
+                    {
+                        "bidder": "oms",
+                        "params": {
+                            "publisherId": "21048"
+                        }
+                    },
+                    {
+                        "bidder": "sovrn",
+                        "params": {
+                            "tagid": "1256211"
+                        }
+                    },
+                    {
+                        "bidder": "openx",
+                        "params": {
+                            "unit": "561445370",
+                            "delDomain": "mobalytics-d.openx.net"
+                        }
+                    },
+                    {
+                        "bidder": "onetag",
+                        "params": {
+                            "pubId": "80ac484cd63fd7e",
+                            "ext": {
+                                "placement_name": "web-destiny-2-display-footer-d"
+                            }
+                        }
+                    },
+                    {
+                        "bidder": "smartadserver",
+                        "params": {
+                            "siteId": 682899,
+                            "pageId": 2035037,
+                            "formatId": 135868
+                        }
+                    },
+                    {
+                        "bidder": "medianet",
+                        "params": {
+                            "cid": "8CUC2405Y",
+                            "crid": "956619553"
+                        }
+                    },
+                    {
+                        "bidder": "ix",
+                        "params": {
+                            "siteId": "1157270"
+                        }
+                    },
+                    {
+                        "bidder": "gumgum",
+                        "params": {
+                            "zone": "bdppvphq",
+                            "slot": "1273327"
+                        }
+                    },
+                    {
+                        "bidder": "inmobi",
+                        "params": {
+                            "plc": "10000167300"
+                        }
+                    },
+                    {
+                        "bidder": "ogury",
+                        "params": {
+                            "adUnitId": "wd-hb-stdb-mobaly-mobal-by5lcxwkbpyj",
+                            "assetKey": "OGY-1D9A57637CDD"
+                        }
+                    }
+                ],
+                "ortb2Imp": {
+                    "ext": {
+                        "data": {
+                            "divId": "web-destiny-2-display-footer-d",
+                            "placement": "footer-w"
+                        }
                     }
                 }
             }
-        },
-        {
-            "code": "/21974715207/web-destiny-2-display-footer-d",
-            "mediaTypes": {
-                "banner": {
-                    "sizes": []
-                }
-            },
-            "bids": [
-                {
-                    "bidder": "pubmatic",
-                    "params": {
-                        "publisherId": "165261",
-                        "adSlot": "6141442"
+        ],
+        "adUnitsMobile": [
+            {
+                "code": "/21974715207/web-destiny-2-display-footer-m",
+                "mediaTypes": {
+                    "banner": {
+                        "sizes": []
                     }
                 },
-                {
-                    "bidder": "appnexus",
-                    "params": {
-                        "placementId": 34122289,
-                        "position": "above"
-                    }
-                },
-                {
-                    "bidder": "adagio",
-                    "params": {
-                        "organizationId": "1458",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
-                    "bidder": "sovrn",
-                    "params": {
-                        "tagid": "1256211"
-                    }
-                },
-                {
-                    "bidder": "openx",
-                    "params": {
-                        "unit": "561445370",
-                        "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-footer-d"
+                "bids": [
+                    {
+                        "bidder": "pubmatic",
+                        "params": {
+                            "publisherId": "165261",
+                            "adSlot": "6141443"
+                        }
+                    },
+                    {
+                        "bidder": "appnexus",
+                        "params": {
+                            "placementId": 34122291,
+                            "allowSmallerSizes": true,
+                            "position": "above"
+                        }
+                    },
+                    {
+                        "bidder": "adagio",
+                        "params": {
+                            "organizationId": "1458",
+                            "site": "mobalytics-gg"
+                        }
+                    },
+                    {
+                        "bidder": "oms",
+                        "params": {
+                            "publisherId": "21048"
+                        }
+                    },
+                    {
+                        "bidder": "sovrn",
+                        "params": {
+                            "tagid": "1256212"
+                        }
+                    },
+                    {
+                        "bidder": "openx",
+                        "params": {
+                            "unit": "561445371",
+                            "delDomain": "mobalytics-d.openx.net"
+                        }
+                    },
+                    {
+                        "bidder": "onetag",
+                        "params": {
+                            "pubId": "80ac484cd63fd7e",
+                            "ext": {
+                                "placement_name": "web-destiny-2-display-footer-m"
+                            }
+                        }
+                    },
+                    {
+                        "bidder": "smartadserver",
+                        "params": {
+                            "siteId": 682899,
+                            "pageId": 2035038,
+                            "formatId": 135869
+                        }
+                    },
+                    {
+                        "bidder": "medianet",
+                        "params": {
+                            "cid": "8CUC2405Y",
+                            "crid": "157147232"
+                        }
+                    },
+                    {
+                        "bidder": "ix",
+                        "params": {
+                            "siteId": "1157271"
+                        }
+                    },
+                    {
+                        "bidder": "gumgum",
+                        "params": {
+                            "zone": "bdppvphq",
+                            "slot": "1273329"
+                        }
+                    },
+                    {
+                        "bidder": "inmobi",
+                        "params": {
+                            "plc": "10000167301"
+                        }
+                    },
+                    {
+                        "bidder": "ogury",
+                        "params": {
+                            "adUnitId": "wm-hb-foot-mobaly-mobal-p0t0g8k3cci1",
+                            "assetKey": "OGY-1D9A57637CDD"
                         }
                     }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2035037,
-                        "formatId": 135868
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "956619553"
-                    }
-                },
-                {
-                    "bidder": "ix",
-                    "params": {
-                        "siteId": "1157270"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273327"
-                    }
-                },
-                {
-                    "bidder": "inmobi",
-                    "params": {
-                        "plc": "10000167300"
-                    }
-                },
-                {
-                    "bidder": "ogury",
-                    "params": {
-                        "adUnitId": "wd-hb-stdb-mobaly-mobal-by5lcxwkbpyj",
-                        "assetKey": "OGY-1D9A57637CDD"
-                    }
-                }
-            ],
-            "ortb2Imp": {
-                "ext": {
-                    "data": {
-                        "divId": "web-destiny-2-display-footer-d",
-                        "placement": "footer-w"
+                ],
+                "ortb2Imp": {
+                    "ext": {
+                        "data": {
+                            "divId": "web-destiny-2-display-footer-m",
+                            "placement": "footer-s"
+                        }
                     }
                 }
             }
-        }
-    ],
-    "adUnitsMobile": [
-        {
-            "code": "/21974715207/web-destiny-2-display-footer-m",
-            "mediaTypes": {
-                "banner": {
-                    "sizes": []
-                }
-            },
-            "bids": [
-                {
-                    "bidder": "pubmatic",
-                    "params": {
-                        "publisherId": "165261",
-                        "adSlot": "6141443"
-                    }
-                },
-                {
-                    "bidder": "appnexus",
-                    "params": {
-                        "placementId": 34122291,
-                        "allowSmallerSizes": true,
-                        "position": "above"
-                    }
-                },
-                {
-                    "bidder": "adagio",
-                    "params": {
-                        "organizationId": "1458",
-                        "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
-                    "bidder": "sovrn",
-                    "params": {
-                        "tagid": "1256212"
-                    }
-                },
-                {
-                    "bidder": "openx",
-                    "params": {
-                        "unit": "561445371",
-                        "delDomain": "mobalytics-d.openx.net"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-destiny-2-display-footer-m"
-                        }
-                    }
-                },
-                {
-                    "bidder": "smartadserver",
-                    "params": {
-                        "siteId": 682899,
-                        "pageId": 2035038,
-                        "formatId": 135869
-                    }
-                },
-                {
-                    "bidder": "medianet",
-                    "params": {
-                        "cid": "8CUC2405Y",
-                        "crid": "157147232"
-                    }
-                },
-                {
-                    "bidder": "ix",
-                    "params": {
-                        "siteId": "1157271"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273329"
-                    }
-                },
-                {
-                    "bidder": "inmobi",
-                    "params": {
-                        "plc": "10000167301"
-                    }
-                },
-                {
-                    "bidder": "ogury",
-                    "params": {
-                        "adUnitId": "wm-hb-foot-mobaly-mobal-p0t0g8k3cci1",
-                        "assetKey": "OGY-1D9A57637CDD"
-                    }
-                }
-            ],
-            "ortb2Imp": {
-                "ext": {
-                    "data": {
-                        "divId": "web-destiny-2-display-footer-m",
-                        "placement": "footer-s"
-                    }
-                }
+        ],
+        "bidderSettings": {
+            "standard": {
+                "storageAllowed": true
             }
-        }
-    ],
-    "bidderSettings": {
-        "standard": {
-            "storageAllowed": true
         }
     }
-}
