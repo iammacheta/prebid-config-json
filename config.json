@@ -1,5 +1,5 @@
 {
-    "config_version": "1702-RTD_adagio",
+    "config_version": "2102-timeoutBuffer",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -8,6 +8,7 @@
         "useBidCache": true,
         "eventHistoryTTL": 400,
         "enableTIDs": true,
+        "timeoutBuffer": 400,
         "priceGranularity": {
             "buckets": [
                 {
