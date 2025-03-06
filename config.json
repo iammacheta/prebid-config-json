@@ -1,5 +1,5 @@
 {
-    "config_version": "2702-CPMfloors",
+    "config_version": "0603-0.02floors",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -178,7 +178,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.05
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -298,7 +298,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.05
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -410,7 +410,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.05
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -523,7 +523,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.1
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -644,7 +644,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.15
+                    "banner": 0.02
                 }
             },
             "bids": [
