@@ -114,7 +114,8 @@
                             "uidapi.com",
                             "sharedid.org",
                             "criteo.com",
-                            "id5-sync.com"
+                            "id5-sync.com",
+                            "crwdcntrl.net"
                         ],
                         "encrypt": false
                     }
@@ -144,6 +145,12 @@
                         "name": "id5id",
                         "expires": 90,
                         "refreshInSeconds": 7200
+                    }
+                },
+                {
+                    "name": "lotamePanoramaId",
+                    "params": {
+                        "clientId": "17999"
                     }
                 }
             ],
