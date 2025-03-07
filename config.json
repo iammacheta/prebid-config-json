@@ -1,5 +1,5 @@
 {
-    "config_version": "0603-0.02floors",
+    "config_version": "0703-0.01floors",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -14,7 +14,7 @@
                 "enforcePBS": false,
                 "enforceJS": true
             },
-            "default": 0.02
+            "default": 0.01
         },
         "priceGranularity": {
             "buckets": [
@@ -178,7 +178,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.02
+                    "banner": 0.01
                 }
             },
             "bids": [
@@ -298,7 +298,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.02
+                    "banner": 0.01
                 }
             },
             "bids": [
@@ -410,7 +410,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.02
+                    "banner": 0.01
                 }
             },
             "bids": [
@@ -523,7 +523,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.02
+                    "banner": 0.01
                 }
             },
             "bids": [
@@ -644,7 +644,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.02
+                    "banner": 0.01
                 }
             },
             "bids": [
