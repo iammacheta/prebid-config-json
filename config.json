@@ -1,5 +1,5 @@
 {
-    "config_version": "0703-0.01floors",
+    "config_version": "2103-iion",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -279,6 +279,15 @@
                         "adUnitId": "wd-hb-stdb-mobaly-mobal-6xnjqbcd90zb",
                         "assetKey": "OGY-1D9A57637CDD"
                     }
+                },
+                {
+                    "bidder": "iionads",
+                    "params": {
+                        "host": "ads-2479t.iionads.com",
+                        "adUnitId": 42187,
+                        "adUnitType": "banner",
+                        "publisherId": "2235709"
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -390,6 +399,15 @@
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167298"
+                    }
+                },
+                {
+                    "bidder": "iionads",
+                    "params": {
+                        "host": "ads-2479t.iionads.com",
+                        "adUnitId": 42187,
+                        "adUnitType": "banner",
+                        "publisherId": "2235709"
                     }
                 }
             ],
@@ -503,6 +521,15 @@
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167299"
+                    }
+                },
+                {
+                    "bidder": "iionads",
+                    "params": {
+                        "host": "ads-2479t.iionads.com",
+                        "adUnitId": 42187,
+                        "adUnitType": "banner",
+                        "publisherId": "2235709"
                     }
                 }
             ],
@@ -622,6 +649,15 @@
                     "params": {
                         "adUnitId": "wd-hb-stdb-mobaly-mobal-by5lcxwkbpyj",
                         "assetKey": "OGY-1D9A57637CDD"
+                    }
+                },
+                {
+                    "bidder": "iionads",
+                    "params": {
+                        "host": "ads-2479t.iionads.com",
+                        "adUnitId": 42187,
+                        "adUnitType": "banner",
+                        "publisherId": "2235709"
                     }
                 }
             ],
@@ -744,6 +780,15 @@
                     "params": {
                         "adUnitId": "wm-hb-foot-mobaly-mobal-p0t0g8k3cci1",
                         "assetKey": "OGY-1D9A57637CDD"
+                    }
+                },
+                {
+                    "bidder": "iionads",
+                    "params": {
+                        "host": "ads-2479t.iionads.com",
+                        "adUnitId": 42187,
+                        "adUnitType": "banner",
+                        "publisherId": "2235709"
                     }
                 }
             ],
