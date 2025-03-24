@@ -1,5 +1,5 @@
 {
-    "config_version": "2103-iion",
+    "config_version": "2403-ogury",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -402,6 +402,13 @@
                     }
                 },
                 {
+                    "bidder": "ogury",
+                    "params": {
+                        "adUnitId": "wd-hb-stdb-mobaly-mobal-lydcluewg2qu",
+                        "assetKey": "OGY-1D9A57637CDD"
+                    }
+                },
+                {
                     "bidder": "iionads",
                     "params": {
                         "host": "ads-2479t.iionads.com",
@@ -521,6 +528,13 @@
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167299"
+                    }
+                },
+                {
+                    "bidder": "ogury",
+                    "params": {
+                        "adUnitId": "wd-hb-stdb-mobaly-mobal-80k2ehje085b",
+                        "assetKey": "OGY-1D9A57637CDD"
                     }
                 },
                 {
