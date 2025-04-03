@@ -1,5 +1,5 @@
 {
-    "config_version": "0204-kueez",
+    "config_version": "0304-vid+unr",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -295,6 +295,20 @@
                         "cId": "67ed2d09e3011c328b20098d",
                         "pId": "65lk7c192882r0011813fn9"
                     }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "67ee7a23e3011c328b218c68",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -429,6 +443,20 @@
                     "params": {
                         "cId": "67ed2d09e3011c328b20098d",
                         "pId": "65lk7c192882r0011813fn9"
+                    }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "67ee7a23e3011c328b218c68",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
                     }
                 }
             ],
@@ -566,6 +594,20 @@
                         "cId": "67ed2d09e3011c328b20098d",
                         "pId": "65lk7c192882r0011813fn9"
                     }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "67ee7a23e3011c328b218c68",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -700,6 +742,20 @@
                     "params": {
                         "cId": "67ed2d09e3011c328b20098d",
                         "pId": "65lk7c192882r0011813fn9"
+                    }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "67ee7a23e3011c328b218c68",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
                     }
                 }
             ],
@@ -838,6 +894,20 @@
                     "params": {
                         "cId": "67ed2d09e3011c328b20098d",
                         "pId": "65lk7c192882r0011813fn9"
+                    }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "67ee7a23e3011c328b218c68",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
                     }
                 }
             ],
