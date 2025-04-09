@@ -1,5 +1,5 @@
 {
-    "config_version": "0304-vid+unr",
+    "config_version": "0904-liveramp",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -152,9 +152,23 @@
                     "params": {
                         "clientId": "17999"
                     }
+                },
+                {
+                    "name": "identityLink",
+                    "params": {
+                        "pid": "999",
+                        "notUse3P": false
+                    },
+                    "storage": {
+                        "type": "cookie",
+                        "name": "idl_env",
+                        "expires": 15,
+                        "refreshInSeconds": 1800
+                    }
                 }
             ],
-            "auctionDelay": 250
+            "auctionDelay": 250,
+            "syncDelay": 3000
         },
         "realTimeData": {
             "dataProviders": [
