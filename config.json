@@ -14,7 +14,7 @@
                 "enforcePBS": false,
                 "enforceJS": true
             },
-            "default": 0.01
+            "default": 0.02
         },
         "priceGranularity": {
             "buckets": [
@@ -156,7 +156,7 @@
                 {
                     "name": "identityLink",
                     "params": {
-                        "pid": "999",
+                        "pid": "14451",
                         "notUse3P": false
                     },
                     "storage": {
@@ -199,7 +199,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.01
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -349,7 +349,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.01
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -498,7 +498,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.01
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -648,7 +648,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.01
+                    "banner": 0.02
                 }
             },
             "bids": [
@@ -799,7 +799,7 @@
                     ]
                 },
                 "values": {
-                    "banner": 0.01
+                    "banner": 0.02
                 }
             },
             "bids": [
