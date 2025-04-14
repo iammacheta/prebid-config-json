@@ -1,5 +1,5 @@
 {
-    "config_version": "0904-liveramp",
+    "config_version": "1404-LR&floors",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
