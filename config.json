@@ -1,5 +1,5 @@
 {
-    "config_version": "1404-LR&floors",
+    "config_version": "1604-Magnite",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -323,6 +323,14 @@
                     "params": {
                         "siteId": 287980
                     }
+                },
+                {
+                    "bidder": "rubicon",
+                    "params": {
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -471,6 +479,14 @@
                     "bidder": "unruly",
                     "params": {
                         "siteId": 287980
+                    }
+                },
+                {
+                    "bidder": "rubicon",
+                    "params": {
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954
                     }
                 }
             ],
@@ -622,6 +638,14 @@
                     "params": {
                         "siteId": 287980
                     }
+                },
+                {
+                    "bidder": "rubicon",
+                    "params": {
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954
+                    }
                 }
             ],
             "ortb2Imp": {
@@ -770,6 +794,14 @@
                     "bidder": "unruly",
                     "params": {
                         "siteId": 287980
+                    }
+                },
+                {
+                    "bidder": "rubicon",
+                    "params": {
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954
                     }
                 }
             ],
@@ -922,6 +954,14 @@
                     "bidder": "unruly",
                     "params": {
                         "siteId": 287980
+                    }
+                },
+                {
+                    "bidder": "rubicon",
+                    "params": {
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954
                     }
                 }
             ],
