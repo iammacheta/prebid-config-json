@@ -165,6 +165,14 @@
                         "expires": 15,
                         "refreshInSeconds": 1800
                     }
+                },
+                {
+                    "name": "pairId",
+                    "params": {
+                        "liveramp": {
+                            "storageKey": "_lr_pairId"
+                        }
+                    }
                 }
             ],
             "auctionDelay": 250,
