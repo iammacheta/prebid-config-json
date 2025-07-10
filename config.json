@@ -1,5 +1,5 @@
 {
-    "config_version": "1604-Magnite",
+    "config_version": "1010-video",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -189,6 +189,34 @@
                     }
                 }
             ]
+        },
+        "video": {
+            "providers": [
+                {
+                    "divId": "prebid-video-player",
+                    "vendorCode": 2,
+                    "playerConfig": {
+                        "params": {
+                            "adPluginConfig": {
+                                "adLabel": "Prebid Video",
+                                "numRedirects": 10
+                            },
+                            "vendorConfig": {
+                                "controls": true,
+                                "autoplay": true,
+                                "preload": "auto"
+                            }
+                        }
+                    },
+                    "adServer": {
+                        "vendorCode": "gam",
+                        "baseAdTagUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21974715207/prebid_cache_video_adunit&sz=400x225&impl=s&gdfp_req=1&env=vp&output=xml_vast4&unviewed_position_start=1"
+                    }
+                }
+            ]
+        },
+        "cache": {
+            "url": "https://prebid.adnxs.com/pbc/v1/cache"
         }
     },
     "adUnitsDesktop": [
