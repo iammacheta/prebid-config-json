@@ -1,5 +1,5 @@
 {
-    "config_version": "1010-video",
+    "config_version": "2407-video",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -204,7 +204,8 @@
                             "vendorConfig": {
                                 "controls": true,
                                 "autoplay": true,
-                                "preload": "auto"
+                                "preload": "auto",
+                                "muted": true
                             }
                         }
                     },
