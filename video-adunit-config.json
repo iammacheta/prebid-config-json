@@ -5,6 +5,7 @@
       "video": {
         "context": "instream",
         "plcmt": 2,
+        "playerSize": [400, 225],
         "mimes": ["video/mp4"],
         "startdelay": 0,
         "maxduration": 30,
