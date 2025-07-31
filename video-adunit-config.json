@@ -11,7 +11,8 @@
         "protocols": [2, 3, 5, 6],
         "linearity": 1,
         "placement": 3,
-        "playbackmethod": [6]
+        "playbackmethod": [6],
+        "api": [2]
       }
     },
     "video": {
