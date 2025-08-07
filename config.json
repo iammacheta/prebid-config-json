@@ -1,5 +1,5 @@
 {
-    "config_version": "0608-kueezVideo",
+    "config_version": "0708-unruly",
     "prebidTimeout": 100000,
     "failSafeTimeout": 150000,
     "refreshInterval": 105000,
@@ -1155,6 +1155,12 @@
                     "params": {
                         "cId": "689358f751e759d9ed305121",
                         "pId": "65lk7c192882r0011813fn9"
+                    }
+                },
+                {
+                    "bidder": "unruly",
+                    "params": {
+                        "siteId": 287980
                     }
                 }
             ]
