@@ -1185,6 +1185,12 @@
                     "params": {
                         "siteId": 287980
                     }
+                },
+                                {
+                    "bidder": "inmobi",
+                    "params": {
+                        "plc": "10000449100"
+                    }
                 }
             ]
         }
