@@ -3,6 +3,30 @@
     "prebidTimeout": 100000,
     "failSafeTimeout": 150000,
     "refreshInterval": 105000,
+    "PrebidVideoSettings": {
+        "videoRequestCooldown": 30000,
+        "VASTFallbackUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21974715207/prebid_cache_video_adunit&sz=400x225&impl=s&gdfp_req=1&env=vp&output=xml_vast4&unviewed_position_start=1",
+        "playlist": [
+            {
+                "id": "deadlock-movement-guide",
+                "src": "https://storage.googleapis.com/cdn.mobalytics.gg/assets/common/prebid/videoPlaylist/deadlock-movement-guide-jumps-dashes-slides-more.mp4",
+                "type": "video/mp4",
+                "title": "DEADLOCK Movement Guide - Jumps, Dashes, Slides & More"
+            },
+            {
+                "id": "every-hero-augment-set-15-tft-ko-coliseum",
+                "src": "https://storage.googleapis.com/cdn.mobalytics.gg/assets/common/prebid/videoPlaylist/every-hero-augment-set-15-tft-ko-coliseum.mp4",
+                "type": "video/mp4",
+                "title": "Every Hero Augment in Set 15 TFT - K.O. Coliseum"
+            },
+            {
+                "id": "the-black-flame-nu-udra-guide-monster-hunter-wilds",
+                "src": "https://storage.googleapis.com/cdn.mobalytics.gg/assets/common/prebid/videoPlaylist/the-black-flame-nu-udra-guide-monster-hunter-wilds.mp4",
+                "type": "video/mp4",
+                "title": "The Black Flame (Nu Udra) Guide - Monster Hunter Wilds"
+            }
+        ]
+    },
     "config": {
         "enableSendAllBids": false,
         "useBidCache": true,
