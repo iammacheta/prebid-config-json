@@ -1,7 +1,7 @@
 {
-    "config_version": "0708-unruly",
-    "prebidTimeout": 100000,
-    "failSafeTimeout": 150000,
+    "config_version": "1908-vdz,smrt,inm,tmt",
+    "prebidTimeout": 2000,
+    "failSafeTimeout": 3000,
     "refreshInterval": 105000,
     "PrebidVideoSettings": {
         "videoRequestCooldown": 30000,
@@ -222,7 +222,7 @@
                     "playerConfig": {
                         "params": {
                             "adPluginConfig": {
-                                "adLabel": "Prebid Video",
+                                "adLabel": "Ad • Video Continues Soon",
                                 "numRedirects": 10
                             },
                             "vendorConfig": {
@@ -1086,12 +1086,6 @@
                     }
                 },
                 {
-                    "bidder": "oms",
-                    "params": {
-                        "publisherId": "21048"
-                    }
-                },
-                {
                     "bidder": "onetag",
                     "params": {
                         "pubId": "80ac484cd63fd7e",
@@ -1104,14 +1098,6 @@
                     "bidder": "unruly",
                     "params": {
                         "siteId": 287980
-                    }
-                },
-                {
-                    "bidder": "vidazoo",
-                    "params": {
-                        "cId": "67ee7a23e3011c328b218c68",
-                        "pId": "59ac17c192832d0011283fe3",
-                        "subDomain": "exchange"
                     }
                 },
                 {
@@ -1181,18 +1167,36 @@
                     }
                 },
                 {
-                    "bidder": "unruly",
-                    "params": {
-                        "siteId": 287980
-                    }
-                },
-                                {
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000449100"
                     }
+                },
+                {
+                    "bidder": "smartadserver",
+                    "params": {
+                        "siteId": 682899,
+                        "pageId": 2109342,
+                        "formatId": 135053
+                    }
+                },
+                {
+                    "bidder": "vidazoo",
+                    "params": {
+                        "cId": "689b4d8769d216128e9e178d",
+                        "pId": "59ac17c192832d0011283fe3",
+                        "subDomain": "exchange"
+                    }
                 }
-            ]
+            ],
+            "ortb2Imp": {
+                "ext": {
+                    "data": {
+                        "divId": "prebid-video-player",
+                        "placement": "web-video"
+                    }
+                }
+            }
         }
     ],
     "bidderSettings": {
