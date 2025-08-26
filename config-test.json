@@ -1,8 +1,8 @@
 {
-    "config_version": "26068-refreshInterval",
+    "config_version": "1908-vdz,smrt,inm,tmt",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
-    "refreshInterval": 30000,
+    "refreshInterval": 105000,
     "PrebidVideoSettings": {
         "videoRequestCooldown": 30000,
         "VASTFallbackUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21974715207/prebid_cache_video_adunit&sz=400x225&impl=s&gdfp_req=1&env=vp&output=xml_vast4&unviewed_position_start=1",
@@ -119,8 +119,8 @@
             "adServerCurrency": "USD",
             "granularityMultiplier": 1,
             "defaultRates": {
-                "EUR": 1.16,
-                "GBP": 1.35
+                "EUR": 1.1,
+                "GBP": 1.3
             },
             "conversionRateFile": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json"
         },
@@ -222,7 +222,7 @@
                     "playerConfig": {
                         "params": {
                             "adPluginConfig": {
-                                "adLabel": "Ad",
+                                "adLabel": "Ad • Video Continues Soon",
                                 "numRedirects": 10
                             },
                             "vendorConfig": {
