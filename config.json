@@ -1,5 +1,5 @@
 {
-    "config_version": "26068-refreshInterval",
+    "config_version": "27068-magnite",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -1129,9 +1129,9 @@
                 {
                     "bidder": "rubicon",
                     "params": {
-                        "accountId": 7780,
-                        "siteId": 87184,
-                        "zoneId": 412394,
+                        "accountId": 27412,
+                        "siteId": 589642,
+                        "zoneId": 3763954,
                         "video": {
                             "language": "en"
                         }
@@ -1142,7 +1142,7 @@
                     "params": {
                         "host": "ads-247co.iionads.com",
                         "adUnitId": 42236,
-                        "adUnitType": "Video",
+                        "adUnitType": "video",
                         "publisherId": "2235800"
                     }
                 },
