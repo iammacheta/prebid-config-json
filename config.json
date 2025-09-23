@@ -1,5 +1,5 @@
 {
-    "config_version": "27068-magnite",
+    "config_version": "2309-useBidCacheF",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -29,7 +29,7 @@
     },
     "config": {
         "enableSendAllBids": false,
-        "useBidCache": true,
+        "useBidCache": false,
         "eventHistoryTTL": 400,
         "enableTIDs": true,
         "timeoutBuffer": 400,
