@@ -1,5 +1,5 @@
 {
-    "config_version": "2309-useBidCacheF",
+    "config_version": "3009-removeGumGum",
     "prebidTimeout": 2000,
     "failSafeTimeout": 3000,
     "refreshInterval": 30000,
@@ -336,13 +336,6 @@
                     }
                 },
                 {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1155240"
-                    }
-                },
-                {
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167297"
@@ -490,13 +483,6 @@
                     "bidder": "ix",
                     "params": {
                         "siteId": "1157269"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273326"
                     }
                 },
                 {
@@ -651,13 +637,6 @@
                     }
                 },
                 {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273323"
-                    }
-                },
-                {
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167299"
@@ -805,13 +784,6 @@
                     "bidder": "ix",
                     "params": {
                         "siteId": "1157270"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273327"
                     }
                 },
                 {
@@ -968,13 +940,6 @@
                     }
                 },
                 {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "bdppvphq",
-                        "slot": "1273329"
-                    }
-                },
-                {
                     "bidder": "inmobi",
                     "params": {
                         "plc": "10000167301"
@@ -1118,12 +1083,6 @@
                     "bidder": "sovrn",
                     "params": {
                         "tagid": "1282326"
-                    }
-                },
-                {
-                    "bidder": "gumgum",
-                    "params": {
-                        "zone": "fvixn1pe"
                     }
                 },
                 {
