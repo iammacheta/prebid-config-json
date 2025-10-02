@@ -242,6 +242,11 @@
         },
         "cache": {
             "url": "https://prebid.adnxs.com/pbc/v1/cache"
+        },
+        "bidderSettings": {
+            "standard": {
+                "storageAllowed": true
+            }
         }
     },
     "adUnitsDesktop": [
@@ -1177,10 +1182,5 @@
                 }
             }
         }
-    ],
-    "bidderSettings": {
-        "standard": {
-            "storageAllowed": true
-        }
-    }
+    ]
 }
