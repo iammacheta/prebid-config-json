@@ -1,10 +1,10 @@
 {
-    "config_version": "3009-removeGumGum",
-    "prebidTimeout": 2000,
-    "failSafeTimeout": 3000,
+    "config_version": "0210-flr,rfsh,mim,prtcl,api",
+    "prebidTimeout": 3500,
+    "failSafeTimeout": 4500,
     "refreshInterval": 30000,
     "PrebidVideoSettings": {
-        "videoRequestCooldown": 30000,
+        "videoRequestCooldown": 20000,
         "VASTFallbackUrl": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21974715207/prebid_cache_video_adunit&sz=400x225&impl=s&gdfp_req=1&env=vp&output=xml_vast4&unviewed_position_start=1",
         "playlist": [
             {
@@ -1013,15 +1013,22 @@
                         225
                     ],
                     "mimes": [
-                        "video/mp4"
+                        "video/mp4",
+                        "video/webm"
                     ],
                     "startdelay": 0,
-                    "maxduration": 30,
+                    "maxduration": 60,
                     "protocols": [
                         2,
                         3,
                         5,
-                        6
+                        6,
+                        7,
+                        8,
+                        11,
+                        12,
+                        13,
+                        14
                     ],
                     "linearity": 1,
                     "placement": 3,
@@ -1029,9 +1036,22 @@
                         6
                     ],
                     "api": [
+                        7,
                         2
                     ]
                 }
+            },
+            "floors": {
+                "currency": "USD",
+                "schema": {
+                    "fields": [
+                        "mediaType"
+                    ]
+                },
+                "values": {
+                    "video": 0.20
+                },
+                "default": 0.15
             },
             "video": {
                 "divId": "prebid-video-player"
