@@ -1,7 +1,7 @@
 {
-    "config_version": "0210-flr,rfsh,mim,prtcl,api",
-    "prebidTimeout": 3500,
-    "failSafeTimeout": 4500,
+    "config_version": "0210-bTimeout4500",
+    "prebidTimeout": 5000,
+    "failSafeTimeout": 5500,
     "refreshInterval": 30000,
     "PrebidVideoSettings": {
         "videoRequestCooldown": 20000,
@@ -28,6 +28,7 @@
         ]
     },
     "config": {
+        "bidderTimeout": 4500,
         "enableSendAllBids": false,
         "useBidCache": false,
         "eventHistoryTTL": 400,
