@@ -1,7 +1,7 @@
 {
-    "config_version": "0210-bTimeout4500",
-    "prebidTimeout": 5000,
-    "failSafeTimeout": 5500,
+    "config_version": "0710-fixTimeouts",
+    "prebidTimeout": 3500,
+    "failSafeTimeout": 8000,
     "refreshInterval": 30000,
     "PrebidVideoSettings": {
         "videoRequestCooldown": 20000,
@@ -28,12 +28,11 @@
         ]
     },
     "config": {
-        "bidderTimeout": 4500,
+        "bidderTimeout": 3500,
         "enableSendAllBids": false,
         "useBidCache": false,
         "eventHistoryTTL": 400,
         "enableTIDs": true,
-        "timeoutBuffer": 400,
         "floors": {
             "enforcement": {
                 "enforcePBS": false,
@@ -1037,7 +1036,6 @@
                         14
                     ],
                     "linearity": 1,
-                    "placement": 3,
                     "playbackmethod": [
                         6
                     ],
@@ -1074,15 +1072,6 @@
                     "params": {
                         "organizationId": "1458",
                         "site": "mobalytics-gg"
-                    }
-                },
-                {
-                    "bidder": "onetag",
-                    "params": {
-                        "pubId": "80ac484cd63fd7e",
-                        "ext": {
-                            "placement_name": "web-video"
-                        }
                     }
                 },
                 {
