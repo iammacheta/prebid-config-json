@@ -1,5 +1,5 @@
 {
-    "config_version": "0710-fixTimeouts",
+    "config_version": "0810-ixVideoParameters",
     "prebidTimeout": 3500,
     "failSafeTimeout": 8000,
     "refreshInterval": 30000,
@@ -1019,9 +1019,11 @@
                     ],
                     "mimes": [
                         "video/mp4",
-                        "video/webm"
+                        "video/webm",
+                        "application/javascript"
                     ],
                     "startdelay": 0,
+                    "minduration": 1,
                     "maxduration": 60,
                     "protocols": [
                         2,
