@@ -1,0 +1,20 @@
+{
+  "currency": "USD",
+  "schema": {
+    "fields": [
+      "mediaType",
+      "deviceType",
+      "country",
+      "cpmSeason"
+    ]
+  },
+  "values": {
+    "banner|desktop|US|high": 0.60,
+    "banner|mobile|US|low": 0.35,
+    "video|*|US|*": 1.10,
+    "video|*|JP|*": 0.70,
+    "banner|mobile|*|*": 0.15,
+    "banner|desktop|*|*": 0.20,
+    "*|*|*|*": 0.10
+  }
+}

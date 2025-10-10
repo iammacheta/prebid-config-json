@@ -1,6 +1,6 @@
 {
-    "config_version": "0810-ixVideoParameters",
-    "prebidTimeout": 3500,
+    "config_version": "1010-r old floors",
+    "prebidTimeout": 4000,
     "failSafeTimeout": 8000,
     "refreshInterval": 30000,
     "PrebidVideoSettings": {
@@ -28,18 +28,11 @@
         ]
     },
     "config": {
-        "bidderTimeout": 3500,
+        "bidderTimeout": 4000,
         "enableSendAllBids": false,
         "useBidCache": false,
         "eventHistoryTTL": 400,
         "enableTIDs": true,
-        "floors": {
-            "enforcement": {
-                "enforcePBS": false,
-                "enforceJS": true
-            },
-            "default": 0.05
-        },
         "priceGranularity": {
             "buckets": [
                 {
@@ -257,17 +250,6 @@
                     "sizes": []
                 }
             },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "banner": 0.08
-                }
-            },
             "bids": [
                 {
                     "bidder": "pubmatic",
@@ -408,17 +390,6 @@
                     "sizes": []
                 }
             },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "banner": 0.08
-                }
-            },
             "bids": [
                 {
                     "bidder": "pubmatic",
@@ -556,17 +527,6 @@
             "mediaTypes": {
                 "banner": {
                     "sizes": []
-                }
-            },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "banner": 0.08
                 }
             },
             "bids": [
@@ -709,17 +669,6 @@
                     "sizes": []
                 }
             },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "banner": 0.08
-                }
-            },
             "bids": [
                 {
                     "bidder": "pubmatic",
@@ -859,17 +808,6 @@
             "mediaTypes": {
                 "banner": {
                     "sizes": []
-                }
-            },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "banner": 0.08
                 }
             },
             "bids": [
@@ -1046,18 +984,6 @@
                         2
                     ]
                 }
-            },
-            "floors": {
-                "currency": "USD",
-                "schema": {
-                    "fields": [
-                        "mediaType"
-                    ]
-                },
-                "values": {
-                    "video": 0.20
-                },
-                "default": 0.15
             },
             "video": {
                 "divId": "prebid-video-player"
