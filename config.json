@@ -1,5 +1,5 @@
 {
-    "config_version": "1010-r old floors",
+    "config_version": "1510-ignoreBidderCacheKey",
     "prebidTimeout": 4000,
     "failSafeTimeout": 8000,
     "refreshInterval": 30000,
@@ -234,7 +234,8 @@
             ]
         },
         "cache": {
-            "url": "https://prebid.adnxs.com/pbc/v1/cache"
+            "url": "https://prebid.adnxs.com/pbc/v1/cache",
+            "ignoreBidderCacheKey": true
         },
         "bidderSettings": {
             "standard": {
